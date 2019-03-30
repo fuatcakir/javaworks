@@ -1,15 +1,10 @@
 package lamda.collection.works;
 
-import java.io.Serializable;
+public class Person {
 
-public class Person implements Serializable {
-
-	private static final long serialVersionUID = -3729420078134672209L;
 	String name;
 	Integer age;
 	String location;
-
- 
 
 	public Person(String name, Integer age, String location) {
 		this.name = name;
@@ -41,8 +36,8 @@ public class Person implements Serializable {
 		this.location = location;
 	}
 
-    public void printAllInfo() {
-    	System.out.println("Ad: "+this.name +", Yas: "+this.age+", Lokasyon:"+this.location);
-    }
+	public void printAllInfo() {
+		System.out.println("Ad: " + this.name + ", Yas: " + this.age + ", Lokasyon:" + this.location);
+	}
 
 }
