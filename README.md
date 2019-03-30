@@ -1,2 +1,2 @@
 # javaworks
-java lamdbda ifadelerini koleysiyon yapılarında kullanma örneği
+java lambda ifadelerini koleysiyon yapılarında kullanma örneği
